@@ -16,8 +16,5 @@ class ListRoles extends ListRecords
             Actions\CreateAction::make(),
         ];
     }
-    protected  function getRedirectUrl():string
-    {
-        return RoleResource::getUrl('index');
-    }
+
 }
